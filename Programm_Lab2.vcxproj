@@ -128,6 +128,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Programm_Lab2.cpp" />
+    <ClCompile Include="t_cpu.cpp" />
+    <ClCompile Include="t_gpu.cpp" />
+    <ClCompile Include="t_pc.cpp" />
+    <ClCompile Include="t_ram.cpp" />
+    <ClCompile Include="t_ssd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="t_cpu.h" />
+    <ClInclude Include="t_gpu.h" />
+    <ClInclude Include="t_pc.h" />
+    <ClInclude Include="t_ram.h" />
+    <ClInclude Include="t_ssd.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
